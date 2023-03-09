@@ -1,6 +1,6 @@
 package Task2_oop;
 
-public class Bicycle extends Transport implements ServiceCheck {
+public class Bicycle extends Transport implements ServiceCheckTyre {
 
     public Bicycle(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
@@ -12,10 +12,6 @@ public class Bicycle extends Transport implements ServiceCheck {
         System.out.println("Меняем покрышку для велосипеда");
     }
 
-    @Override
-    public void checkEngine() {
-
-    }
 
 }
 

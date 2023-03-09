@@ -1,6 +1,6 @@
 package Task2_oop;
 
-public class Truck extends Transport implements ServiceCheck {
+public class Truck extends Transport implements ServiceCheckTyre,ServiceCheckEngine{
 
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
