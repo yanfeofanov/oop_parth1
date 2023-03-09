@@ -1,6 +1,6 @@
 package Task2_oop;
 
-public abstract class Transport implements ServiceCheck {
+public abstract class Transport  {
     private String modelName;
     private int wheelsCount;
 
@@ -18,15 +18,5 @@ public abstract class Transport implements ServiceCheck {
         return wheelsCount;
     }
 
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
 
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
-    }
-
-    public void checkTrailer() {
-        System.out.println("Проверяем прицеп");
-    }
 }

@@ -7,8 +7,14 @@ public class Bicycle extends Transport implements ServiceCheck {
     }
 
 
+    @Override
     public void updateTyre() {
-        System.out.println("Меняем покрышку");
+        System.out.println("Меняем покрышку для велосипеда");
+    }
+
+    @Override
+    public void checkEngine() {
+
     }
 
 }
