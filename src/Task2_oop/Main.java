@@ -8,10 +8,8 @@ public class Main {
         Transport car = new Car("Car1", 4);
         Transport car2 = new Car("Car2", 4);
 
-
         Transport truck = new Truck("Truck1", 6);
         Transport truck2 = new Truck("Truck2", 6);
-
 
         Transport bicycle = new Bicycle("Bicycle1", 2);
         Transport bicycle2 = new Bicycle("Bicycle2", 2);

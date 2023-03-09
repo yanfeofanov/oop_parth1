@@ -13,6 +13,7 @@ public class ServiceStation {
         }
     }
 
+
     public void checkTruck(Truck truck) {
         if (truck != null) {
             System.out.println("Обслуживаем " + truck.getModelName());

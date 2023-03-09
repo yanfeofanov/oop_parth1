@@ -6,6 +6,7 @@ public class Car extends Transport implements ServiceCheck {
         super(modelName, wheelsCount);
     }
 
+
     public void updateTyre() {
         System.out.println("Меняем покрышку");
     }
