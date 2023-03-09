@@ -1,3 +1,5 @@
+package Task1_oop;
+
 public class Ravenclaw extends Hogvarts{
     private int mind;
     private int wisdom;

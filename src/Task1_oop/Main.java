@@ -1,3 +1,5 @@
+package Task1_oop;
+
 import java.util.Random;
 
 public class Main {

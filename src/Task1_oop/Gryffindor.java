@@ -1,3 +1,5 @@
+package Task1_oop;
+
 public class Gryffindor extends Hogvarts {
     private int nobility;
     private int honor;
@@ -53,7 +55,13 @@ public class Gryffindor extends Hogvarts {
 
     @Override
     public String toString() {
-        return "Студент : " + getName() + " сила магии  " + getPowerMagic() + " расстояние трансгресии " + getTransgressions() + " благородство " + getNobility() + " честь " + getHonor() + " храбрость " + getBravery();
+        return "Студент : "
+                + getName() + " сила магии  "
+                + getPowerMagic() + " расстояние трансгресии "
+                + getTransgressions() + " благородство "
+                + getNobility() + " честь "
+                + getHonor() + " храбрость "
+                + getBravery();
 
     }
 

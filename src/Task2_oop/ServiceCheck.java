@@ -1,11 +1,7 @@
 package Task2_oop;
 
 public interface ServiceCheck {
-    default void updateTyre() {
-        System.out.println("Нет замены колес");
-    }
+    void updateTyre();
 
-    default void checkEngine() {
-        System.out.println("Нет проверки двигателя");
-    }
+    void checkEngine();
 }

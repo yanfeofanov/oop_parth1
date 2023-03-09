@@ -1,3 +1,5 @@
+package Task1_oop;
+
 public abstract class Hogvarts {
     private String name;
     private int powerMagic;

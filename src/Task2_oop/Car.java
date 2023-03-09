@@ -1,6 +1,6 @@
 package Task2_oop;
 
-public class Car extends ServiceStation implements ServiceCheck {
+public class Car extends Transport implements ServiceCheck {
 
     public Car(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);

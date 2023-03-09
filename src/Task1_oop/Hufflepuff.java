@@ -1,3 +1,5 @@
+package Task1_oop;
+
 public class Hufflepuff extends Hogvarts{
     private int industriousness;
     private int loyalty;

@@ -1,3 +1,5 @@
+package Task1_oop;
+
 public class Slytherin extends Hogvarts {
     private int cunning;
     private int determination;
